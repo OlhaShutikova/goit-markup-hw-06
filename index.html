@@ -61,33 +61,35 @@
             <b class="form-subject">Оставьте свои данные, мы вам перезвоним</b>
             <div class="form-field">
                 <label for="name" class="slogan-label">Имя</label>
-                    <input type="text" class="slogan-input" name="username" id="name">
+                    <input type="text" id="name" class="slogan-input" name="username">
                         <svg class="slogan-icon" width="18px" height="18px">
                             <use href="images/sprite.svg#icon-person"></use>
                         </svg>
             </div>
             <div class="form-field">
-                <label for="name" class="slogan-label">Телефон</label>
-                <input type="tel" class="slogan-input" name="username" id="name">
+                <label for="phone" class="slogan-label">Телефон</label>
+                <input type="tel" id="phone" class="slogan-input" name="phone">
                 <svg class="slogan-icon" width="18px" height="18px">
                     <use href="images/sprite.svg#icon-phone-call"></use>
                 </svg>
             </div>
             <div class="form-field">
-                <label for="name" class="slogan-label">Почта</label>
-                <input type="email" class="slogan-input" name="username" id="name">
+                <label for="mail" class="slogan-label">Почта</label>
+                <input type="email" id="mail" class="slogan-input" name="mail">
                 <svg class="slogan-icon" width="18px" height="18px">
                     <use href="images/sprite.svg#icon-email-mail"></use>
                 </svg>
             </div>
             <div class="form-comment">
                 <label for="comment" class="slogan-label">Комментарий</label>
-                <textarea class="slogan-comment" id="comment" rows="100" placeholder="Введите текст"></textarea>
+                <textarea id="comment" name="comment" class="slogan-comment" rows="100" placeholder="Введите текст"></textarea>
             </div>
             <div class="form-checkbox">
                 <label class="checkbox-label">
                     <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-icon"></span>
+                        <svg class="checkbox-icon" width="16px" height="15px">
+                            <use href="images/sprite.svg#icon-icon-check"></use>
+                        </svg>
                     <span class="checkbox-comment">Соглашаюсь с рассылкой и принимаю <a href="./images/check-mark.svg">Условия договора</a> </span>
                 </label>
             </div>
